@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+.venv/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated data and model outputs
+data/raw/*
+data/processed/*
+data/external/*
+results/figures/*
+results/models/*
+results/reports/*
+results/reports/tensorboard/
+
+# Keep the directory structure in Git
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+!results/figures/.gitkeep
+!results/models/.gitkeep
+!results/reports/.gitkeep
